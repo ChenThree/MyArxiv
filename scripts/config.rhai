@@ -1,5 +1,5 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_method = ["Grasp", "Manipulation", "Articulate", "Robo"];
+let titles_method = ["Grasp", "Manipulation", "Articulate", "Robo", "Affordance", "Neural Field", "Descriptor", "Diffusion", "Reinforcement Learning", "Behaviour Cloning"];
 let titles_platform = ["Robots", "Robot", "Gripper"];
 let titles_sensor = ["RGBD", "LiDAR", "Visual", "Vision", "Camera"];
 let titles = titles_method + titles_type + titles_sensor + titles_platform;
