@@ -1,8 +1,9 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
-let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let titles_method = ["Grasp", "Manipulation", "Articulate", "Robo"];
+let titles_platform = ["Robots", "Robot", "Gripper"];
+let titles_sensor = ["RGBD", "LiDAR", "Visual", "Vision", "Camera"];
+let titles = titles_method + titles_type + titles_sensor + titles_platform;
+let authors_array = ["Hao Su", "Hao Dong", "Cewu Lu", "Yao Mu", "Shuran Song", "Li Yi", "Huaze Xu", "Sergey Levine", "Lin Shao", "Agrawal Pulkit"];
 
 let conferences = [
     // AI
@@ -22,7 +23,9 @@ let conferences = [
     // System
     "FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
     // Security
-    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
+    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security",
+    // Robotics
+    "ICRA", "IROS", "RSS"
 ];
 
 let start = conferences.shift();
